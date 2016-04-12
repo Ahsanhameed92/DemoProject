@@ -43,4 +43,5 @@ On the other hand there are many special cases where we should use Fragments. Li
 
 The follwoing are the issues with AsyncTask 
 1-When an app is rotated, the entire Activity is destroyed and recreated. When the Activity is restarted, your AsyncTask’s reference to the Activity is invalid, so onPostExecute() will have no effect on the new Activity. The usual solution to this problem is to hold onto a reference to AsyncTask that lasts between configuration changes, which updates the target Activity as it restarts.
+
 2-The other issue with AsyncTask is that if we run AsyncTask in a activity and then finish the Activity the  AsyncTask keep running. The only way that an AsyncTask finishes early is if it is canceled via AsyncTask.cancel().
