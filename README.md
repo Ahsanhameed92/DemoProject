@@ -3,12 +3,17 @@ Question and Answers
 1.What is the major difference between an  abstract class and an  interface? 
 
 Abstract class and interface both are used to achieve abstraction the following are the major differences between abstract class and interface
- 1-Interface is used to achieve fully abstraction (100%) while abstract class is used to achieve partially  abstraction (0 to 100%).
- 2-Abstract class can have abstract and non-abstract methods while Interface can have only abstract methods.
- 3-Abstract class doesn't support multiple inheritance while Abstract class doesn't support multiple inheritance.
- 4-Abstract class can have final, non-final, static and non-static variables on the other hand abstract class can have final, non-final, static and non-static variables. 
- 5-A Java class can implement multiple interfaces but it can extend only one abstract class.
- 6-Methods of a Java interface are implicitly abstract and cannot have implementations. A Java abstract class can have instance methods that implements a default behavior.
+  1-Interface is used to achieve fully abstraction (100%) while abstract class is used to achieve partially  abstraction (0 to 100%).
+
+  2-Abstract class can have abstract and non-abstract methods while Interface can have only abstract methods.
+
+  3-Abstract class doesn't support multiple inheritance while Abstract class doesn't support multiple inheritance.
+
+  4-Abstract class can have final, non-final, static and non-static variables on the other hand abstract class can have final, non-final, static and non-static variables. 
+
+  5-A Java class can implement multiple interfaces but it can extend only one abstract class.
+
+  6-Methods of a Java interface are implicitly abstract and cannot have implementations. A Java abstract class can have instance methods that implements a default behavior.
 
 2.Why is Java 7’s class inheritance flawed?
 
