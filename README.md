@@ -3,6 +3,7 @@ Question and Answers
 1.What is the major difference between an  abstract class and an  interface? 
 
 Abstract class and interface both are used to achieve abstraction the following are the major differences between abstract class and interface
+
   1-Interface is used to achieve fully abstraction (100%) while abstract class is used to achieve partially  abstraction (0 to 100%).
 
   2-Abstract class can have abstract and non-abstract methods while Interface can have only abstract methods.
