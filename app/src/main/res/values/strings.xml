@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Demo Application</string>
+    <string name="text_add">Add</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_fname">Enter First Name</string>
+    <string name="text_lname">Enter Last Name</string>
+    <string name="text_title">ENTER NAME</string>
+    <string name="text_enter_fname">Please enter first name first!</string>
+    <string name="text_enter_lname">Please enter first last first!</string>
+
+
+</resources>
