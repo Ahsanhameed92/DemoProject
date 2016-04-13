@@ -8,9 +8,9 @@ Abstract class and interface both are used to achieve abstraction the following 
 
   2-Abstract class can have abstract and non-abstract methods while Interface can have only abstract methods.
 
-  3-Abstract class doesn't support multiple inheritance while Abstract class doesn't support multiple inheritance.
+  3-Abstract class doesn't support multiple inheritance while Interface supports multiple inheritance.
 
-  4-Abstract class can have final, non-final, static and non-static variables on the other hand abstract class can have final, non-final, static and non-static variables. 
+  4-Abstract class can have final, non-final, static and non-static variables on the other hand Interface has only static and final variables. 
 
   5-A Java class can implement multiple interfaces but it can extend only one abstract class.
 
