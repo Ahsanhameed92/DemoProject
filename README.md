@@ -34,6 +34,7 @@ The following are the major differences between activities and fragments.
 Q4.When using  Fragments , how do you communicate back to their hosting  Activity ? 
 
 We use fragment for flexible and responsive UI when we have to make an application  for different device’s like phone and tablets. Fragments enable both orientations to reuse shared elements while also having differences. Fragments are view controllers they hold decoupled chunks of business logic that can be tested easily .Because fragments are built on top of views and views can easily be animated, fragments would give us better control over screen transitions. Fragment  provides backstack management we can use many fragment with single activity.
+
 To communities with hosting Activity, we have to  define an interface in the Fragment class and implement it within the Activity to receive event callbacks from the fragment.
 
 
